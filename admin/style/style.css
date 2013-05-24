@@ -1,0 +1,673 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg_w.png) repeat;
+	/*background: #e9e4e4;*/
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	color: #CFCFCF;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	text-transform: lowercase;
+	font-family: 'Arvo', serif;
+	font-weight: 400;
+	color: #424242;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #9C9A9A;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img.border {
+	border: 6px solid #EEE7DF;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header-wrapper {
+	height: 180px;
+	margin-bottom: 0px;
+}
+
+#header {
+	width: 980px;
+	height: 180px;
+	background: url(../images/bg_w.png) repeat;
+	margin: 0 auto;
+}
+
+#dashed {
+	width: 976px;
+	height: 180px;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #000000;
+	margin: 2px auto;
+}
+
+/* Logo */
+
+#logo {
+	width: 980px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 35px 0px 0px 0px;
+	color: #000000;
+}
+
+#logo h1, #logo p {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	text-transform: lowercase;
+}
+
+#logo h1 {
+	letter-spacing: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 80px;
+	color: #000000;
+	font-family: 'Century Gothic';
+}
+
+#logo h1 a {
+	color: #000000;
+}
+
+#logo p {
+	margin-top: -25px;
+	text-align: center;
+	font-family: 'Hammer Thin', 'Arvo', serif;
+	font-size: 25px;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Search */
+
+/*#search {
+	float: right;
+	width: 280px;
+	height: 100px;
+	padding: 0;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 60px 0 0 30px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 195px;
+	padding: 6px 10px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px;
+	color: #7F7F81;
+}
+
+#search-submit {
+	display: none;
+}*/
+
+/* Menu */
+
+#menu-wrapper {
+	width: 980px;
+	margin: 0px auto;
+	padding: 0px;
+	color: #000000;
+}
+
+#menu {
+	margin: 0;
+	padding: 0px 0px;
+	list-style: none;
+	letter-spacing: 1px;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: normal;
+	color: #ffffff;
+	background: #000000;
+	font-family: 'Century Gothic';
+}
+
+#menu li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu a {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: #ffffff;
+}
+
+#menu .logout {
+	float: right;
+}
+
+#menu .current_page_item a {
+	/*border-radius: 5px;*/
+	background: #bdbab8;
+}
+
+#menu a:hover {
+	/*border-radius: 5px;*/
+	background: #bdbab8;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu span {
+	margin: 0px;
+	padding: 0px 15px;
+}
+
+#menu > li {
+}
+
+#menu > li.active {
+	/*border-radius: 5px;*/
+	background: #bdbab8;
+	color: #FFFFFF;
+}
+
+.dropotron li.opener {
+	border-right: solid 2px #FFFFFF;
+}
+
+.dropotron {
+	margin: 0px;
+	padding: 7px 0px;
+	background: #bdbab8;
+	/*border-radius: 5px;*/
+	list-style: none;
+	text-transform: none;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Century Gothic';
+	letter-spacing: 1px;
+	color: #FFFFFF;
+}
+
+.dropotron a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.dropotron a:hover, .dropotron a:active {
+	color: #000000;
+}
+
+.dropotron li {
+	margin: 0px;
+	padding: 5px 20px;
+}
+
+.dropotron li:hover, .dropotron li.active {
+	background: #878583;
+}
+
+/* Page */
+
+#page {
+	width: 900px;
+	margin: 0px auto 20px auto;
+	padding: 30px 40px;
+	/*background: #cfcece;*/
+	background: url(../images/bg.png) repeat;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 650px;
+}
+
+#content .contentbg {
+	width: 590px;
+	padding: 10px 30px 0px 30px;
+}
+
+.post {
+	clear: both;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #000000;
+}
+
+.post .title {
+	padding-top: 0px;
+	letter-spacing: 0px;
+	text-transform: none;
+	font-size: 25px;
+	font-family: 'Century Gothic';
+	color: #000000;
+}
+
+.post .title a {
+	border: none;
+	color: #000000;
+}
+
+/*.post .meta {
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 11px;
+	font-style: italic;
+}*/
+
+.post .meta a {
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Sidebar */
+
+/*#sidebar-bg {
+	float: left;
+	width: 330px;
+}
+
+#sidebar {
+	overflow: hidden;
+	width: 270px;
+	padding: 30px 30px 20px 30px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 0 0px;
+	border-bottom: 1px solid #000000;
+	letter-spacing: -2px;
+	font-size: 30px;
+	color: #FFC023;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 20px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}*/
+
+/* Calendar */
+
+/*#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}*/
+
+/* Footer */
+
+#footer {
+	height: 100px;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 5px;
+	line-height: normal;
+	text-align: center;
+	text-transform: none;
+	font-family: 'Century Gothic';
+	font-size: 13px;
+	color: #000000;
+}
+
+#footer a {
+	text-decoration: underline;
+}
+
+/*#slider {
+	position: relative;
+	width: 590px;
+	margin: 0px auto 20px auto;
+}
+
+#slider .viewer {
+	width: 590px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#slider .viewer .reel {
+	display: none;
+	height: 300px;
+}
+
+#slider .viewer .reel .slide {
+	position: relative;
+	width: 590px;
+	height: 300px;
+}*/
+
+/*#three-column {
+	overflow: hidden;
+	width: 980px;
+	margin: 20px auto;
+}
+
+#three-column #column1 {
+	float: left;
+	width: 300px;
+	margin-right: 40px;
+}
+
+#three-column #column2 {
+	float: left;
+	width: 300px;
+}
+
+#three-column #column3 {
+	float: right;
+	width: 300px;
+}*/
+
+#admin form {
+	height: auto;
+	margin: 0;
+	padding: 0px 0px 0px 20px;
+}
+
+#admin table {
+	width: 100%;
+	background: none;
+}
+
+#admin tbody td {
+	text-align: left;
+	border-bottom: 1px solid #ffffff;
+}
+
+#table-view {
+	border-radius: 10px;
+	border-style: dashed;
+	border-width: 2px;
+	width: 100%;
+	font-size: 14px;
+	border: none;
+}
+
+#table-view tr:hover{
+	background : #000000;
+	color : #FFFFFF;
+} 
+
+#table-view a:hover{
+	color : #FFFFFF;
+}
+
+#tombol {
+	width: 20%;
+	height: 22px;
+	border-radius: 13px;
+	background: #000000;
+	padding: 5px 7px 5px 7px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#tombol a{
+	line-height: normal;
+	float: center;
+	text-transform: none;
+	font-family: 'Century Gothic';
+	font-size: 17px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tombol2 {
+	width: auto;
+	height: auto;
+	border-radius: 5px;
+	background: #000000;
+	padding: 1px 2px 1px 2px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#list-wrapper {
+	margin-top: 10px;
+	padding: 0;
+	width: 100%;
+	color: #000000;
+	background: #fdfdfd;
+	border-radius: 10px;
+}
+
+#list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	height: auto;
+	background: none;
+	text-align: left;
+	letter-spacing: 0px;
+	text-transform: none;
+	font-size: 15px;
+	font-family: 'Century Gothic';
+	border-bottom: 1px solid #000000;
+	margin-bottom: 0px;
+}
+
+#list li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#list a {
+	color: #9C9A9A;
+	text-decoration: none;
+}
+
+#list li:hover {
+	background: url(../images/bg.png) repeat;
+	text-decoration: none;
+	color: #000000;
+}
+
+#list .tanggal{
+	width: 10%;
+	padding-left: 5px;
+	padding-right: 7px;
+}
+
+#list .judul{
+	width: 15%;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+#list .isi{
+	width: 50%;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+#list .extra{
+	width: 15%;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.tombolc {
+	  border: 0;
+	  background-color: #eeeeee;
+	  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+	  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+	  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+	  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+	  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+	  background-image: linear-gradient(top, #eeeeee, #cccccc);
+	  border: 1px solid #ccc;
+	  border-bottom: 1px solid #bbb;
+	  border-radius: 3px;
+	  color: #333;
+	  font: bold 13px/1 "Century Gothic", Geneva, Verdana, sans-serif;
+	  padding: 8px 0;
+	  text-align: center;
+	  text-shadow: 0 1px 0 #eee;
+	  width: auto;
+}
+.tombolc:hover {
+		background-color: #dddddd;
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #bbbbbb));
+		background-image: -webkit-linear-gradient(top, #dddddd, #bbbbbb);
+		background-image: -moz-linear-gradient(top, #dddddd, #bbbbbb);
+		background-image: -ms-linear-gradient(top, #dddddd, #bbbbbb);
+		background-image: -o-linear-gradient(top, #dddddd, #bbbbbb);
+		background-image: linear-gradient(top, #dddddd, #bbbbbb);
+		border: 1px solid #bbb;
+		border-bottom: 1px solid #999;
+		cursor: pointer;
+		text-shadow: 0 1px 0 #ddd;
+}
+.tombolc:active {
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #888;
+    -webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+}
